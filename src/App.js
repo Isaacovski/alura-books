@@ -1,5 +1,10 @@
 import './App.css';
 import Logo from './componentes/Logo'
+import perfil from './img/perfil.svg'
+import sacola from './img/sacola.svg'
+
+const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
+const icones = [perfil,sacola]
 
 function App() {
   return (
@@ -7,9 +12,14 @@ function App() {
       <header className='App-header'>
         <Logo></Logo> 
         <ul className='opcoes'>
-          <li className='opcao'><p>Categorias</p></li>
-          <li className='opcao'><p>Minhas Estante</p></li>
-          <li className='opcao'><p>Favoritos</p></li>
+          { textoOpcoes.map( (texto)=> (
+            <li className='opcao'><p>{texto}</p></li>
+          ) ) }
+        </ul>
+        <ul className='icones'>
+            { icones.map( (icone) => (
+              <li className='icone'><img src={icone}></img></li>
+            )) }
         </ul>
       </header>
     </div>
