@@ -7,7 +7,7 @@ function OpcoesHeader (){
            <ul className='opcoes'>
            { textoOpcoes.map( (texto)=> (
             <li className='opcao'><p>{texto}</p></li>
-          ) ) }
+          ) ) } 
         </ul>
       )
 }
