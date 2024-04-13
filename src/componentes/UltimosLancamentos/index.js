@@ -24,12 +24,14 @@ function UltimosLancamentos() {
             tamanhoFonte='36px' 
             alinhamento='center'>
             Ultímos Lançamentos
+            funciona git
             </Titulo>
             <NovosLivrosContainer>
                 { livros.map( livro => (
                     <img src={livro.src}/>
                 ) ) }
             </NovosLivrosContainer>
+
         </UltimosLancamentosContainer>
     )
 }
