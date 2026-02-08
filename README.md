@@ -48,5 +48,9 @@ O front end foi desenvolvido em **React** e conta com:
 
 ---
 
-<img width="1349" height="593" alt="Capturar" src="https://github.com/user-attachments/assets/0dfe745f-0bcf-48d0-a872-a9f8129d2eef" />
+
+
+https://github.com/user-attachments/assets/6848071b-b9d9-48a3-bd87-4ab39439583a
+
+
 
