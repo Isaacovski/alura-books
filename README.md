@@ -12,23 +12,6 @@ Este projeto de livros foi criado durante um curso **extraordinário da Alura**.
 
 ---
 
-## ⚙️ Back End
-
-O back end foi construído **100% em JavaScript puro**, com rotas, controladores e toda a lógica da API feita manualmente.  
-
-A API controla os livros e oferece as seguintes funcionalidades:  
-
-- Listar livros (**GET**)  
-- Adicionar livros (**POST**)  
-- Modificar livros (**PUT**)  
-- Apagar livros (**DELETE**)  
-
-Os dados eram armazenados em um **arquivo JSON**, deixando o site leve e rápido.  
-
-> Foi nesse projeto que usei o **Postman** pela primeira vez e criei minha primeira API. Infelizmente, os arquivos do back end foram perdidos 😅  
-
----
-
 ## 🖥️ Front End
 
 O front end foi desenvolvido em **React** e conta com:  
